@@ -24,6 +24,7 @@ public class Appointment {
     Date appointmentDate;
 
 
+
     @ManyToOne
     @JoinColumn
     Person person;

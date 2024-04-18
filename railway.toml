@@ -4,6 +4,6 @@ buildCommand = "echo building!"
 
 [deploy]
 startCommand = "mvn spring-boot:run"
-healthcheckPath = "/src"
+healthcheckPath = "/src/main/java/com.example.cowinibooti/CowiniBootiApplication"
 healthcheckTimeout = 100
 restartPolicyType = "never"

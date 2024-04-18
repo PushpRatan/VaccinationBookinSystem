@@ -3,7 +3,9 @@ builder = "nixpacks"
 buildCommand = "echo building!"
 
 [deploy]
-startCommand = "mvn spring-boot:run"
-healthcheckPath = "/src/main/java/com.example.cowinibooti/CowiniBootiApplication"
-healthcheckTimeout = 100
+startCommand = "echo starting!"
+healthcheckPath = "/"
+healthcheckTimeout = 500
 restartPolicyType = "never"
+
+
